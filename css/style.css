@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: f6f2f2;
+}
+.header {
+    width: 1255px;
+    height: 100px;
+    background: black;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+}
+.menu > a {
+    display: inline-block;
+    padding: 41px 21px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu > a:hover {
+    background-color: red;
+}
+
+.intro  {
+    background-color: white;
+    width: 1255px;
+    padding: 100px 0 120px;
+}
+
+.intro-wrapper {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-right: 70;
+}
+.intro-wrapper h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.text {
+    margin-bottom: 50px;
+    color: gray;
+
+}
+
+.contact {
+    color:white;
+    display: inline-block;
+    background-color:red;
+    width: 240px;
+    text-decoration: none;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.image {
+    display: inline-block;
+    width: 620px;
+    height: 350px;
+}
